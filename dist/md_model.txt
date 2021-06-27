@@ -1,0 +1,48 @@
+![alt text](dist/FORECAST_PERÚ_AMAZONAS_AL_2021-07-03.png "AMAZONAS")
+
+![alt text](dist/FORECAST_PERÚ_ANCASH_AL_2021-07-03.png "ANCASH")
+
+![alt text](dist/FORECAST_PERÚ_APURIMAC_AL_2021-07-03.png "APURIMAC")
+
+![alt text](dist/FORECAST_PERÚ_AREQUIPA_AL_2021-07-03.png "AREQUIPA")
+
+![alt text](dist/FORECAST_PERÚ_AYACUCHO_AL_2021-07-03.png "AYACUCHO")
+
+![alt text](dist/FORECAST_PERÚ_CAJAMARCA_AL_2021-07-03.png "CAJAMARCA")
+
+![alt text](dist/FORECAST_PERÚ_CUSCO_AL_2021-07-03.png "CUSCO")
+
+![alt text](dist/FORECAST_PERÚ_HUANCAVELICA_AL_2021-07-03.png "HUANCAVELICA")
+
+![alt text](dist/FORECAST_PERÚ_HUANUCO_AL_2021-07-03.png "HUANUCO")
+
+![alt text](dist/FORECAST_PERÚ_ICA_AL_2021-07-03.png "ICA")
+
+![alt text](dist/FORECAST_PERÚ_JUNIN_AL_2021-07-03.png "JUNIN")
+
+![alt text](dist/FORECAST_PERÚ_LALIBERTAD_AL_2021-07-03.png "LA LIBERTAD")
+
+![alt text](dist/FORECAST_PERÚ_LAMBAYEQUE_AL_2021-07-03.png "LAMBAYEQUE")
+
+![alt text](dist/FORECAST_PERÚ_LIMA_AL_2021-07-03.png "LIMA")
+
+![alt text](dist/FORECAST_PERÚ_LORETO_AL_2021-07-03.png "LORETO")
+
+![alt text](dist/FORECAST_PERÚ_MADREDEDIOS_AL_2021-07-03.png "MADRE DE DIOS")
+
+![alt text](dist/FORECAST_PERÚ_MOQUEGUA_AL_2021-07-03.png "MOQUEGUA")
+
+![alt text](dist/FORECAST_PERÚ_PASCO_AL_2021-07-03.png "PASCO")
+
+![alt text](dist/FORECAST_PERÚ_PIURA_AL_2021-07-03.png "PIURA")
+
+![alt text](dist/FORECAST_PERÚ_PUNO_AL_2021-07-03.png "PUNO")
+
+![alt text](dist/FORECAST_PERÚ_SANMARTIN_AL_2021-07-03.png "SAN MARTIN")
+
+![alt text](dist/FORECAST_PERÚ_TACNA_AL_2021-07-03.png "TACNA")
+
+![alt text](dist/FORECAST_PERÚ_TUMBES_AL_2021-07-03.png "TUMBES")
+
+![alt text](dist/FORECAST_PERÚ_UCAYALI_AL_2021-07-03.png "UCAYALI")
+
