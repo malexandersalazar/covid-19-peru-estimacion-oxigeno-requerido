@@ -18,15 +18,19 @@ Este proyecto se desarrolló en Python 3.8.5 usando los paquetes **pandas**, **d
 
 Obtuve las cifras de casos confirmados de COVID-19 actualizadas a la fecha **2021-07-03** de la Plataforma Nacional de Datos Abiertos del Gobierno de Perú. Los conjuntos de datos utilizados están disponibles en el repositorio "Casos positivos por COVID-19" del Ministerio de Salud [[2]].
 
-Los datos sobre el flujo de oxigeno medicinal requerido para casos severos y críticos los obtuve de la publicación "Oxygen sources and distribution for COVID-19 treatment centres: interim guidance" de la Organización Munidal de la Salud [[3]]
+Los datos sobre el flujo de oxigeno medicinal requerido para casos severos y críticos los obtuve de la publicación "Oxygen sources and distribution for COVID-19 treatment centres: interim guidance" de la Organización Munidal de la Salud [[3]].
 
-Para conocer la proporción de casos severos y críticos entre los pacientes me base en lo descrito en la página "Respuesta a la emergencia por COVID-19 en Perú" de la Organización Panamericana de la Salud [[4]]
+Para conocer la proporción de casos severos y críticos entre los pacientes me base en lo descrito en la página "Respuesta a la emergencia por COVID-19 en Perú" de la Organización Panamericana de la Salud [[4]].
 
 ### Transformación de Datos
 
 Primero eliminé todos los registros sobre casos confirmados de COVID-19 que no tenian fecha asociada, provincia o departamento del conjunto de datos. Así mismo me aseguré de que todos los registros esten categorizados de acuerdo a los 24 departamentos del Perú.
 
 Luego fue necesario agrupar los casos confirmados en semanas debido a que no todos los días tenian registros de casos confirmados y esta agrupación se hizo empleando semanas epidemiológicas basadas en los sistemas de numeración de semanas de CDC (MMWR) e ISO.
+
+### Materiales
+
+Para el desarrollo del modelo predictivo hice uso de Facebook Prophet, el cual se describe como un procedimiento para pronosticar datos de series de tiempo basado en un modelo aditivo en el que las tendencias no lineales se ajustan a la estacionalidad anual, semanal y diaria, además de los efectos de las vacaciones. Funciona mejor con series de tiempo que tienen fuertes efectos estacionales y varias temporadas de datos históricos. Prophet es robusto ante los datos faltantes y los cambios en la tendencia, y normalmente maneja bien los valores atípicos. [[6]]
 
 ### Modelo predictivo
 
@@ -456,9 +460,21 @@ Este procedimiento solo aplicó para las provincias que tenían los datos actual
 
 ![alt text](dist/UCAYALI_PROVINCIAS_AL_2021-07-03.png "UCAYALI")
 
-## Materiales
+## Discussion 
 
-Para el desarrollo del modelo predictivo hice uso de Facebook Prophet, el cual se describe como un procedimiento para pronosticar datos de series de tiempo basado en un modelo aditivo en el que las tendencias no lineales se ajustan a la estacionalidad anual, semanal y diaria, además de los efectos de las vacaciones. Funciona mejor con series de tiempo que tienen fuertes efectos estacionales y varias temporadas de datos históricos. Prophet es robusto ante los datos faltantes y los cambios en la tendencia, y normalmente maneja bien los valores atípicos. [[6]]
+### Resultados
+
+La mayoría de los modelos predictivos de series de tiempo generados en el presente proyecto logran representar correctamente las tendencias de los casos positivos semanales de COVID-19. Sin embargo, solo en el caso de Arequipa las casos positivos en la segunda ola se disparan por fuera de lo señalado por el modelo, mientras que, en los demás departamentos, la tendencia es claramente a la baja.
+
+Al parecer Arequipa es el único departamento del Perú donde, desde el gobierno regional, se intento usar Dioxido de Cloro para tratar COVID-19 en vez promover responsablemente los protocolos aprobados internacionalmente.
+
+Arequipa: Elmer Cáceres insistió en usar dióxido de cloro contra el coronavirus - https://canaln.pe/peru/arequipa-elmer-caceres-insistio-usar-dioxido-cloro-contra-coronavirus-n421303
+
+Mazzetti respondió sobre el uso de dióxido de cloro recomendando por Elmer Cáceres - https://gestion.pe/peru/coronavirus-peru-pilar-mazzetti-respondio-sobre-el-uso-de-dioxido-de-cloro-recomendando-por-elmer-caceres-cuarentena-estado-de-emergencia-covid-19-nndc-noticia/
+
+### Patrocinio
+
+Si valoras lo que hago, un "Like", "Share" o "Gracias" me motivaría bastante. Sin embargo, para poder dedicarle tiempo de calidad a estos proyectos o actividades, un patrocinio económico, desde el valor de un almuerzo me sería de muchísima ayuda: https://www.patreon.com/malexandersalazar
 
 ## Referencias
 
