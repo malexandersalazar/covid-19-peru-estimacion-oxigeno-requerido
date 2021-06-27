@@ -460,7 +460,7 @@ Este procedimiento solo aplicó para las provincias que tenían los datos actual
 
 ![alt text](dist/UCAYALI_PROVINCIAS_AL_2021-07-03.png "UCAYALI")
 
-## Discussion 
+## Discusión 
 
 ### Resultados
 
@@ -474,7 +474,7 @@ Mazzetti respondió sobre el uso de dióxido de cloro recomendando por Elmer Cá
 
 ### Patrocinio
 
-Si valoras lo que hago, un "Like", "Share" o "Gracias" me motivaría bastante. Sin embargo, para poder dedicarle tiempo de calidad a estos proyectos o actividades, un patrocinio económico, desde el valor de un almuerzo me sería de muchísima ayuda: https://www.patreon.com/malexandersalazar
+Si valoras lo que hago, un "Like", "Share" o "Gracias" me motivaría bastante. Sin embargo, para poder dedicarle tiempo de calidad a estos proyectos o actividades, un patrocinio económico, desde el valor de un almuerzo me sería de muchísima ayuda. Puedes apoyarme desde aquí: https://www.patreon.com/malexandersalazar
 
 ## Referencias
 
