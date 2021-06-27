@@ -88,9 +88,9 @@ Dada la cantidad de datos disponibles para la generación del modelo opte por ha
 
 ## Resultados
 
-Según la OMS, el flujo de oxígeno requerido en promedio para los casos severos y críticos es de 10 L/min y 30 L/min respectivamente. La OPS indica que, en Perú, el 81% de los casos positivos por COVID-19 parecen ser leves, cerca de 14% parece devenir en un cuadro grave o severo y alrededor de 5% son casos críticos.
+Según la OMS, el flujo de oxígeno requerido en promedio para los casos severos y críticos es de **10 L/min** y **30 L/min** respectivamente. La OPS indica que, en Perú, el 81% de los casos positivos por COVID-19 parecen ser leves, cerca de **14%** parece devenir en un cuadro grave o severo y alrededor de **5%** son casos críticos.
 
-La estimación de oxígeno medicinal requerido por departamento se calculó empleando los datos de la OMS, la OPS y el modelo predictivo de casos positivos por COVID-19 por departamento con 
+La estimación de oxígeno medicinal requerido en **m3/h** por departamento se calculó empleando los datos de la OMS, la OPS y el modelo predictivo de casos positivos por COVID-19 por departamento. 
 
 | DEPARTAMENTO   | FECHA PRONÓSTICO   |   PROD. RECOMENDADA |   PROD. IDEAL |
 |:---------------|:-------------------|--------------------:|--------------:|
@@ -121,7 +121,7 @@ La estimación de oxígeno medicinal requerido por departamento se calculó empl
 
 ![alt text](dist/PERÚ_DEPARTAMENTOS_AL_2021-07-03.png "PERÚ")
 
-En el caso de las provincias lo que hice fue calcular el ratio entre los casos positivos actuales y futuros indicados por el modelo predictivo según sea el departamento para con ese ratio calcular la producción recomendada o ideal de acuerdo al último acumulado semanal de casos positivos en la provincia.
+En el caso de las provincias lo que hice fue calcular el ratio entre los casos positivos actuales y futuros indicados por el modelo predictivo según sea el departamento para con ese ratio calcular la producción **en m3/h** recomendada o ideal de acuerdo al último acumulado semanal de casos positivos en la provincia.
 
 Este procedimiento solo aplicó para las provincias que tenían los datos actualizados hasta la última semana en concordancia con los datos a nivel departamental. Las provincias que no cumplieron con este criterio fueron filtradas del consolidado.
 
